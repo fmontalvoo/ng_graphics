@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { LineChartComponent } from './components/line-chart/line-chart.component';
+
+const routes: Routes = [
+  { path: 'line', component: LineChartComponent },
+  // { path: '', },
+  { path: '**', redirectTo: 'line', pathMatch: 'full' },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
