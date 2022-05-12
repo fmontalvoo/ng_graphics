@@ -10,6 +10,7 @@ import { LineChartComponent } from './components/line-chart/line-chart.component
 import { BarChartComponent } from './components/bar-chart/bar-chart.component';
 import { DoughnutChartComponent } from './components/doughnut-chart/doughnut-chart.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { RadarChartComponent } from './components/radar-chart/radar-chart.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     LineChartComponent,
     BarChartComponent,
     DoughnutChartComponent,
-    NavbarComponent
+    NavbarComponent,
+    RadarChartComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
