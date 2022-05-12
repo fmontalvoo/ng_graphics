@@ -8,6 +8,8 @@ import { NgChartsModule } from 'ng2-charts';
 
 import { LineChartComponent } from './components/line-chart/line-chart.component';
 import { BarChartComponent } from './components/bar-chart/bar-chart.component';
+import { DoughnutChartComponent } from './components/doughnut-chart/doughnut-chart.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   imports: [
@@ -18,7 +20,9 @@ import { BarChartComponent } from './components/bar-chart/bar-chart.component';
   declarations: [
     AppComponent,
     LineChartComponent,
-    BarChartComponent
+    BarChartComponent,
+    DoughnutChartComponent,
+    NavbarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
