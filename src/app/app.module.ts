@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NgChartsModule } from 'ng2-charts';
 
 import { LineChartComponent } from './components/line-chart/line-chart.component';
+import { BarChartComponent } from './components/bar-chart/bar-chart.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { LineChartComponent } from './components/line-chart/line-chart.component
   ],
   declarations: [
     AppComponent,
-    LineChartComponent
+    LineChartComponent,
+    BarChartComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
